@@ -48,6 +48,7 @@ def use_continue() -> None:
 
 
 def verify_ages(groups: List[List[int]]) -> List[bool]:
+    if len
     return []
 
 
