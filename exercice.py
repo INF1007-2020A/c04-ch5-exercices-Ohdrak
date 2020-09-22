@@ -48,7 +48,7 @@ def use_continue() -> None:
 
 
 def verify_ages(groups: List[List[int]]) -> List[bool]:
-    if len(groups) > 10 or if len(gro)
+    if len(groups) > 10 or if len(groups) < 
     return []
 
 
