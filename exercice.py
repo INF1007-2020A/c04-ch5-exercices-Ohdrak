@@ -6,7 +6,7 @@ from typing import List
 
 
 def convert_to_absolute(number: float) -> float:
-    if number 
+    if number >= 0:
     return 0
 
 
