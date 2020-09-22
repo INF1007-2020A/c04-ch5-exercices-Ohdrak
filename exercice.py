@@ -27,8 +27,7 @@ def is_prime_number(number):
     return True
 def prime_integer_summation() -> int:
     prime = [2, 3, 5]
-    primal_number = []
-    while len(primal_number) < 100:
+    while len(prime) < 100:
         for i in range()
         pass
     return 0
