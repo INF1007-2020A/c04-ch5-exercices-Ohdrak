@@ -36,7 +36,7 @@ def verify_ages(groups: List[List[int]]) -> List[bool]:
 
 
 def main() -> None:
-    number = -4
+    number = 
     print(f"La valeur absolue du nombre {number} est {convert_to_absolute(number)}")
 
     print(f"La liste des noms générés avec les préfixes est: {use_prefixes()}")
