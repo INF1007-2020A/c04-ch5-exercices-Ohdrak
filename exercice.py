@@ -31,8 +31,7 @@ def prime_integer_summation() -> int:
         if is_prime_number:
             prim.append(number)
         number += 1
-        
-    return 0
+            return 0
 
 
 def factorial(number: int) -> int:
