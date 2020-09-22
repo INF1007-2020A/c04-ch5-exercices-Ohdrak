@@ -10,7 +10,7 @@ def convert_to_absolute(number: float) -> float:
         number = number
     else:
         number = -1*number
-    return 0
+    return number
 
 
 def use_prefixes() -> List[str]:
