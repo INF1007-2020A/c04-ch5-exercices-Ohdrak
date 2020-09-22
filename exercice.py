@@ -32,7 +32,7 @@ def prime_integer_summation() -> int:
             prim.append(number)
         number += 1
 
-    return sum(PRIME)
+    return sum(prime)
 
 
 def factorial(number: int) -> int:
