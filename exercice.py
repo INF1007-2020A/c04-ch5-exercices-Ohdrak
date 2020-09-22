@@ -29,7 +29,8 @@ def prime_integer_summation() -> int:
     prime = [2, 3, 5]
     while len(prime) < 100:
         if is_prime_number:
-            prim.append
+            prim.append(number)
+        num
         pass
     return 0
 
