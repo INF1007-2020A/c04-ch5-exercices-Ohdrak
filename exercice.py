@@ -38,8 +38,8 @@ def prime_integer_summation() -> int:
 def factorial(number: int) -> int:
 while number > 1 :
     y = number*(number-1)
-    num
-return number
+    number -=
+return y
 
 
 def use_continue() -> None:
