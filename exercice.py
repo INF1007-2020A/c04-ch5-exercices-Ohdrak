@@ -22,7 +22,7 @@ def use_prefixes() -> List[str]:
 
 def is_prime_number(number):
     for i in range(2, number//2)
-        if number % i
+        if number % i 
 def prime_integer_summation() -> int:
     prime = [2, 3, 5]
     primal_number = []
