@@ -40,7 +40,7 @@ liste_nbr = []
 while number > 1 :
     liste_nbr.append(number*(number-1))
     number -=
-return y
+return 
 
 
 def use_continue() -> None:
