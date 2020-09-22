@@ -37,6 +37,7 @@ def prime_integer_summation() -> int:
 
 def factorial(number: int) -> int:
 while number > 1 :
+list_
     y = number*(number-1)
     number -=
 return y
