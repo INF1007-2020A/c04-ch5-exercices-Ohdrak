@@ -22,7 +22,8 @@ def use_prefixes() -> List[str]:
 
 
 def prime_integer_summation() -> int:
-    
+    while expression:
+        pass
     return 0
 
 
