@@ -21,7 +21,7 @@ def use_prefixes() -> List[str]:
         return word_list
 
 def is_prime_number(number):
-    fi
+    for i
 def prime_integer_summation() -> int:
     primal_number = []
     while len(primal_number) < 100:
