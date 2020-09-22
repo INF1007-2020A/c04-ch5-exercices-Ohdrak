@@ -1,7 +1,7 @@
 test_absolute (__main__.TestExercice) ... ok
 test_factorial (__main__.TestExercice) ... FAIL
 test_prefixes (__main__.TestExercice) ... ERROR
-test_summation (__main__.TestExercice) ... FAIL
+test_summation (__main__.TestExercice) ... ERROR
 test_verify_ages (__main__.TestExercice) ... FAIL
 
 ======================================================================
@@ -13,6 +13,16 @@ Traceback (most recent call last):
   File "/home/runner/work/c04-ch5-exercices-Ohdrak/c04-ch5-exercices-Ohdrak/exercice.py", line 20, in use_prefixes
     word_list.append[pre + suffixe]
 TypeError: 'builtin_function_or_method' object is not subscriptable
+
+======================================================================
+ERROR: test_summation (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 45, in test_summation
+    output = exercice.prime_integer_summation()
+  File "/home/runner/work/c04-ch5-exercices-Ohdrak/c04-ch5-exercices-Ohdrak/exercice.py", line 26, in prime_integer_summation
+    while expression:
+NameError: name 'expression' is not defined
 
 ======================================================================
 FAIL: test_factorial (__main__.TestExercice)
@@ -28,14 +38,6 @@ First differing element 0:
 
 - [0, 0, 0, 0]
 + [1, 6, 40320, 3628800] : Mauvaise réponse
-
-======================================================================
-FAIL: test_summation (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 50, in test_summation
-    'Mauvaise réponse'
-AssertionError: 0 != 24133 : Mauvaise réponse
 
 ======================================================================
 FAIL: test_verify_ages (__main__.TestExercice)
@@ -55,4 +57,4 @@ False
 ----------------------------------------------------------------------
 Ran 5 tests in 0.001s
 
-FAILED (failures=3, errors=1)
+FAILED (failures=2, errors=2)
