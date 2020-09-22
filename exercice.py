@@ -39,7 +39,8 @@ def factorial(number: int) -> int:
 
 while number > 1 :
     number = number*(number-1)
-    return 
+
+    return
 
 
 def use_continue() -> None:
