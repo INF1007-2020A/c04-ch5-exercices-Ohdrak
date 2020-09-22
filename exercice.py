@@ -20,7 +20,7 @@ def use_prefixes() -> List[str]:
         word_list.append[pre + suffixe]
         return word_list
 
-
+def is_
 def prime_integer_summation() -> int:
     primal_number = []
     while len(primal_number) < 100:
