@@ -8,6 +8,7 @@ from typing import List
 def convert_to_absolute(number: float) -> float:
     if number >= 0:
         number = number
+        
     return 0
 
 
